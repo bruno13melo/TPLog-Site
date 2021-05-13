@@ -1,0 +1,61 @@
+body{
+
+}
+
+#cabecalho {
+    background-color: #010002;
+    height: 130px;
+}
+
+#logo {
+    width: 200px;
+}
+
+#navbar {
+    background-color: #010002;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    background-color: #010002;
+}
+
+#botaohome{
+    background-color: #715717;
+}
+
+#botaohome:hover{
+    background-color: #010002;
+}
+
+hr {
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#float {
+    float: left
+}
+
+#clear {
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .caption{
+        top: 20%
+    }
+}
